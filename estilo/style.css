@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --branco-fantasma: #fafaffff;
+    --Azul-bizantino: #1d4cd7ff;
+    --Azul-lapiseira: #0b1d51ff;
+    --Verde-primavera: #2bf371ff;
+    --Cinza: #7A7A7A;
+    --fonte-padrão: Arial, sans-serif, Helvetica;
+    --fonte-destaque: "Lora", serif;
+}
+
+
+
