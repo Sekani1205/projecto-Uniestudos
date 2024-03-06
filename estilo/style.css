@@ -12,12 +12,60 @@
     --branco-fantasma: #fafaffff;
     --Azul-bizantino: #1d4cd7ff;
     --Azul-lapiseira: #0b1d51ff;
-    --violeta: #3f51b5;
+    --azul: #3f51b5;
+    --violeta: #9c27b0;
     --Verde-primavera: #2bf371ff;
     --Cinza: #7A7A7A;
     --fonte-padrão: Arial, sans-serif, Helvetica;
     --fonte-destaque: "Lora", serif;
 }
 
+body {
+    background-color: var(--Cinza);
+}
 
+header {
+    background-image: linear-gradient(to left, var(--azul), var(--violeta));
+    padding: 10px 0px 10px 30px;
+}
 
+nav {
+    padding-bottom: 10px;
+    padding-left: 25px;
+    background-image: linear-gradient(to left, var(--azul), var(--violeta));
+}
+
+nav > a {
+    margin: 5px;
+    text-decoration: none;
+    color: var(--branco-fantasma);
+    font-weight: bolder;
+}
+
+main {
+    background-color: var(--Azul-lapiseira);
+    width: 100vw;
+    height: 80.9vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.q1 {
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.q2 {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+
+footer {
+    background-color: var(--azul);
+}
