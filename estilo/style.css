@@ -79,3 +79,7 @@ footer {
     background-color: var(--azul);
     padding: 5px;
 }
+
+footer p {
+    text-align: center;
+}
