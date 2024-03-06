@@ -37,7 +37,6 @@ nav {
 
 nav > a {
     min-width: 350px;
-    margin: auto;
     margin: 5px;
     text-decoration: none;
     color: var(--branco-fantasma);
