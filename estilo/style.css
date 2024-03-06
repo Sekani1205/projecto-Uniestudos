@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: var(--Cinza);
+    background-color: var(--Azul-lapiseira);
 }
 
 header {
@@ -36,6 +36,8 @@ nav {
 }
 
 nav > a {
+    min-width: 350px;
+    margin: auto;
     margin: 5px;
     text-decoration: none;
     color: var(--branco-fantasma);
@@ -43,29 +45,38 @@ nav > a {
 }
 
 main {
-    background-color: var(--Azul-lapiseira);
+    /*background-color: var(--Azul-lapiseira);
     width: 100vw;
     height: 80.9vh;
     margin: 0px;
-    padding: 0px;
+    padding: 0px;*/
+    background-color: var(--Azul-lapiseira);
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: justify;
+    text-align: center;
+    color: var(--branco-fantasma);
 }
 
-.q1 {
-    border: 1px solid black;
-    height: 300px;
-    width: 400px;
-    margin: 10px;
-    display: inline-block;
+main h1 {
+    padding-top: 40px;
 }
 
-.q2 {
-    border: 1px solid black;
-    height: 300px;
-    width: 300px;
-    margin: 10px;
-    display: inline-block;
+main p {
+    text-align: justify;
+    padding: 30px;
+}
+
+main img {
+    width: 100%;
+    width: 420px;
+    padding-top: -40px;
 }
 
 footer {
     background-color: var(--azul);
+    padding: 5px;
 }
