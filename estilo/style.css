@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900 ;1.100..900&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -16,7 +19,7 @@
     --violeta: #9c27b0;
     --Verde-primavera: #2bf371ff;
     --Cinza: #7A7A7A;
-    --fonte-padrão: Arial, sans-serif, Helvetica;
+    --fonte-padrão: "Noto Serif", Arial, sans-serif, Helvetica;
     --fonte-destaque: "Lora", serif;
 }
 
