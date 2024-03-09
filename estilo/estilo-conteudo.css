@@ -62,7 +62,18 @@ main {
 
 main h1 {
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top: 30px;
+}
+
+.foto {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+img {
+    border-radius: 30px;
+    padding: 10px;
 }
 
 footer {
