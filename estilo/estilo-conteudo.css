@@ -53,6 +53,7 @@ nav a:hover {
 main {
     margin: auto;
     margin-top: 10px;
+    padding-bottom: 20px;
     min-width: 300px;
     max-width: 1000px;
     border-bottom-left-radius: 10px;
@@ -68,7 +69,6 @@ main h1 {
 .foto {
     text-align: center;
     margin-top: 40px;
-    padding-bottom: 20px;
 }
 
 img {
@@ -76,15 +76,13 @@ img {
     padding: 10px;
 }
 
+
 footer {
     background-color: var(--azul);
     text-align: center;
     font-weight: bold;
     color: var(--branco-fantasma);
     padding: 5px;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
 }
 
 footer a {
