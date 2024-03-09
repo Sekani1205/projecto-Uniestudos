@@ -68,8 +68,8 @@ main h1 {
     font-family: var(--fonte-destaque);
 }
 
-main a {
-    padding: 5px;
+main p {
+    padding: 9px;
 }
 
 .foto {
