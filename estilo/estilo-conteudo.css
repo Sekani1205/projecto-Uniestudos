@@ -66,6 +66,7 @@ main h1 {
     padding-left: 50px;
     padding-top: 10px;
     font-family: var(--fonte-destaque);
+    font-style: italic;
 }
 
 main p {
@@ -85,7 +86,6 @@ main img {
     border-radius: 30px;
     padding: 3px;
     box-shadow: 1px 1px 4px rgb(182, 181, 181);
-    transition-duration: 0.5s;
 }
 
 main img:hover {
