@@ -52,30 +52,41 @@ nav a:hover {
 
 main {
     margin: auto;
-    margin-top: 10px;
+    margin-bottom: 20px;
     padding-bottom: 20px;
     min-width: 300px;
     max-width: 1000px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: var(--branco-fantasma);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.411);
 }
 
 main h1 {
     padding-left: 50px;
-    padding-top: 30px;
+    padding-top: 10px;
+    font-family: var(--fonte-destaque);
+}
+
+main a {
+    padding: 5px;
 }
 
 .foto {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
-img {
+main a {
+    padding: 5px 4px 4px 0px;
+}
+
+main img {
     border-radius: 30px;
-    padding: 10px;
+    padding: 3px;
+    box-shadow: 1px 1px 4px rgb(182, 181, 181);
+    
 }
-
 
 footer {
     background-color: var(--azul);
