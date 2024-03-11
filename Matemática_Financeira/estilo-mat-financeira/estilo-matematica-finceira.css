@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
@@ -8,7 +9,7 @@
 }
 
 :root {
-    --branco-fantasma: #fafaffff;
+    --branco-fantasma: white;
     --Azul-bizantino: #1d4cd7ff;
     --Azul-lapiseira: #0b1d51ff;
     --azul: #3f51b5;
@@ -49,39 +50,84 @@ nav a:hover {
     color: var(--Verde-primavera);
 }
 
+.ancora-pag-anterior {
+    color: green;
+}
+
+.pag-anterior {
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: var(--fonte-padrão);
+    font-weight: bold;
+}
+
 main {
+    background-color: var(--branco-fantasma);
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
     padding-bottom: 20px;
+    padding: 30px;
     min-width: 300px;
-    max-width: 1000px;
-    border-radius: 10px;
+    max-width: 900px;
     border-radius: 10px;
     background-color: var(--branco-fantasma);
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.411);
 }
 
-h1 {
+main h1 {
+    padding-left: 10px;
     padding-top: 10px;
-    padding-left: 30px;
+    padding-bottom: 10px;
     font-family: var(--fonte-destaque);
 }
 
-.ancora {
-    color: var(--azul);
+main h2 {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: var(--fonte-destaque);
+}
+
+main h3 {
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: var(--fonte-destaque);
 }
 
 main ol {
     list-style-position: inside;
-    padding-top: 20px;
-    padding-left: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
     font-family: var(--fonte-padrão);
-    font-weight: 500;
+    font-weight: 400;
+    text-indent: 30px;
 }
 
-ol p {
-    padding-top: 10px;
+main li {
+    line-height: 2em;
+    padding-bottom: 10px;
+}
+
+.listas-nao-ordenadas {
+    list-style-type: disc;
+}
+
+article p {
+    text-align: justify;
+    line-height: 2em;
+    text-indent: 30px;
+    font-family: var(--fonte-padrão);
+    font-weight: 400;
+}
+
+main img {
+    width: 300px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -90,6 +136,7 @@ footer {
     font-weight: bold;
     color: var(--branco-fantasma);
     padding: 5px;
+    margin-top: 20px;
 }
 
 footer a {
