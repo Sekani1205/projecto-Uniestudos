@@ -98,9 +98,7 @@ footer {
     background-color: var(--azul);
     padding: 5px;
     color: var(--branco-fantasma);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    
 }
 
 footer p {
