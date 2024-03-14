@@ -103,15 +103,14 @@ article p {
     font-weight: 400;
 }
 
-.formulas {
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-}
-
 .imagem {
     display: flex;
     justify-content: center;
+}
+
+.solução {
+    padding-left: 30px;
+    font-weight: 500;
 }
 
 footer {
