@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --branco-fantasma: white;
+    --Azul-bizantino: #1d4cd7ff;
+    --Azul-lapiseira: #0b1d51ff;
+    --azul: #3f51b5;
+    --violeta: #9c27b0;
+    --Verde-primavera: #2bf371ff;
+    --Cinza: #d6d0d0;
+    --fonte-padrão: "Lora", serif, Arial, Helvetica;
+    --fonte-destaque: "Lora", serif;
+}
+
+body {
+    background-color: var(--Cinza);
+}
+
+header {
+    background-image: linear-gradient(to left, var(--azul), var(--violeta));
+    padding: 10px 0px 10px 30px;
+}
+
+nav {
+    padding-bottom: 10px;
+    padding-left: 25px;
+    background-image: linear-gradient(to left, var(--azul), var(--violeta));
+    text-align: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.411);
+}
+
+nav > a {
+    margin: 5px;
+    text-decoration: none;
+    color: var(--branco-fantasma);
+    font-weight: bolder;
+    font-family: var(--fonte-destaque);
+    font-size: 0.9em;
+}
+
+nav a:hover {
+    color: var(--Verde-primavera);
+}
