@@ -83,7 +83,7 @@ main h1 {
 
 main h2 {
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-bottom: 5px;
     font-family: var(--fonte-destaque);
 }
@@ -119,6 +119,7 @@ article p {
     display: flex;
     justify-content: center;
     text-indent: 0px;
+    background-color: var(--Cinza);
 }
 
 footer {
