@@ -67,7 +67,7 @@ main {
     margin: auto;
     padding-bottom: 20px;
     padding: 10px;
-    min-width: 300px;
+    min-width: 320px;
     max-width: 900px;
     border-radius: 10px;
     background-color: var(--branco-fantasma);
